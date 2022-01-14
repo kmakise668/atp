@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="css/style.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title></title>
+</head>
+<body>
+    <header class="site-header white">
+    <div id="preloader">
+        <div id="ctn-preloader" class="ctn-preloader">
+            <div class="animation-preloader">
+                <div class="spinner"></div>
+            </div>	
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header-content">
+            <div class="site-branding">
+                <a href="/"><picture><source srcset="./img/Logo.svg" type="image/webp"><img src="./img/Logo.svg" alt=""></picture></a>
+            </div>
+            <nav class="site-menu">
+                <ul>
+                    <li><a href="#advantages">О нас</a></li>
+                    <li><a href="#tariffs">Тарифы</a></li>
+                    <li><a href="#calc" >Калькулятор цен</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <button class="btn">Оставить заявку</button>
+        </div>
+        <div class="header-mobile-menu">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="header-mobile-top">
+                        <div class="mobile-menu">
+                            <input id="toggle" type="checkbox">
+                            <label class="toggle-container" for="toggle">
+                                <span class="button button-toggle">
+                                </span>
+                            </label>
+                            <nav class="site-menu">
+                                <ul>
+                                    <li><a href="#advantages">О нас</a></li>
+                                    <li><a href="#tariffs">Тарифы</a></li>
+                                    <li><a href="#calc" >Калькулятор цен</a></li>
+                                    <li><a href="#services">Услуги</a></li>
+                                    <li><a href="#contact">Контакты</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="site-branding">
+                            <a href="/"><picture><source srcset="./img/logo.svg" type="image/webp"><img src="./img/logo.svg" alt=""></picture></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <section class="first-slide wow bounceInUp">
+        <div class="fs-slider">
+            <div class="slide bg-cov" style="background-image: url('./img/fs-bg.jpg');">
+                <div class="content">
+                    <h1>
+                        <span class="theme">Accounting</span>
+                        <span >T</span>
+                        <span>P</span>
+                    </h1>
+                    <p>Комплексное ведение бухгалтерского учёта</p>
+                    <button class="btn">Оставить заявку</button>
+                </div>
+            </div>
+            <div class="slide bg-cov" style="background-image: url('./img/tax.jpg');">
+                <div class="content">
+                    <h1>
+                        <span>A</span>
+                        <span class="theme">Tax</span>
+                        <span>P</span>
+                    </h1>
+                    <p>Комплексное ведение бухгалтерского учёта</p>
+                    <button class="btn">Оставить заявку</button>
+                </div>
+            </div>
+            <div class="slide bg-cov" style="background-image: url('./img/pers.jpg');">
+                <div class="content">
+                    <h1>
+                        <span>A</span>
+                        <span>T</span>
+                        <span class="theme">Personal</span>
+                    </h1>
+                    <p>Комплексное ведение бухгалтерского учёта</p>
+                    <button class="btn">Оставить заявку</button>
+                </div>
+            </div>
+        </div>
+      
+        <a href="tel:+77019558801" class="pulse-btn hide-sm"><i class="fas fa-phone-alt"></i></a>
+    </section>
+    <section class="advantages p" id="advantages">
+        <div class="container">
+            <div class="section-title">
+                <h3>О нас</h3>
+            </div>
+            <div class="advantages-grid">
+                <div class="advantage  wow animate__animated animate__fadeInBottomLeft">
+                    <picture><source srcset="img/about1.webp" type="image/webp"><img src="img/about1.jpg" alt=""></picture>
+                    <div class="description">15 лет опыта в бухгалтерии, налогах и кадрах</div>
+                </div>
+                <div class="advantage wow animate__animated animate__fadeInUp">
+                    <picture><source srcset="img/about2.webp" type="image/webp"><img src="img/about2.jpg" alt=""></picture>
+                    <div class="description">10+ команда <br> специалистов</div>
+                </div>
+                <div class="advantage wow animate__animated animate__fadeInBottomRight">
+                    <picture><source srcset="img/about3.webp" type="image/webp"><img src="img/about3.jpg" alt=""></picture>
+                    <div class="description">IT-сервисы для вашей бухгалтерии онлайн</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tariffs" id="tariffs">
+        <div class="container">
+            <div class="section-title">
+                <h3>Тарифы</h3>
+            </div>
+            <div class="tariffs-grid white">
+                <div class="tariff">
+                    <div class="tariff-items wow animate__animated animate__slideInLeft">
+                        <div class="title">Перечень услуг</div>
+                        <div class="content">
+                            <div class="line">Ведение учета в программе 1С</div>
+                            <div class="line">Ведение Бухгалтерского учета</div>
+                            <div class="line">Ведение Налогового учета</div>
+                            <div class="line">Представительство в налоговых органах</div>
+                            <div class="line">Ведение кадрового учета</div>
+                            <div class="line">Операции с нерезидентами</div>
+                            <div class="line">Количество операций</div>
+                            <div class="line">Консультации</div>
+                        </div>
+                        <div class="price">Стоимость, тг</div>
+                    </div>
+                </div>
+                <div class="tariff">
+                    <div class="tariff-items wow animate__animated animate__slideInRight" data-wow-duration="2s">
+                        <div class="title">старт</div>
+                        <div class="content">
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-close"></i></div>
+                            <div class="line"><i class="icon-close"></i></div>
+                            <div class="line">до 30</div>
+                            <div class="line">1 час</div>
+                        </div>
+                        <div class="price">ОТ 30 000</div>
+                    </div>
+                </div>
+                <div class="tariff">
+                    <div class="tariff-items wow animate__animated animate__slideInRight" data-wow-duration="2s">
+                        <div class="title">эконом</div>
+                        <div class="content">
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-close"></i></div>
+                            <div class="line"><i class="icon-close"></i></div>
+                            <div class="line">до 50</div>
+                            <div class="line">до 3 часов</div>
+                        </div>
+                        <div class="price">ОТ 50 000</div>
+                    </div>
+                </div>
+                <div class="tariff">
+                    <div class="tariff-items wow animate__animated animate__slideInRight"  data-wow-duration="2s">
+                        <div class="title">стандарт</div>
+                        <div class="content">
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-close"></i></div>
+                            <div class="line">до 100</div>
+                            <div class="line">до 5 часов</div>
+                        </div>
+                        <div class="price">ОТ 100 000</div>
+                    </div>
+                </div>
+                <div class="tariff">
+                    <div class="tariff-items wow animate__animated animate__slideInRight " data-wow-duration="2s">
+                        <div class="title">профи</div>
+                        <div class="content">
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line">до 150</div>
+                            <div class="line">до 10 часов</div>
+                        </div>
+                        <div class="price">ОТ 150 000</div>
+                    </div>
+                </div>
+                <div class="tariff">
+                    <div class="tariff-items wow animate__animated animate__slideInRight"  data-wow-duration="2s">
+                        <div class="title">бизнес</div>
+                        <div class="content">
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line"><i class="icon-check"></i></div>
+                            <div class="line">до 250</div>
+                            <div class="line">до 15 часов</div>
+                        </div>
+                        <div class="price">ОТ 250 000</div>
+                    </div>
+                </div>
+            </div>
+            <p>*окончательная стоимость зависит от вида деятельности компании</p>
+            <button class="btn">Оставить заявку</button>
+    </section>
+    <section class="services p" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h3>Услуги</h3>
+            </div>
+            <div class="accords">
+                <div class="accord wow animate__animated animate__fadeInRight">
+                    <div class="accord-header white">
+                        <div class="header-title">
+                            <picture><source srcset="./img/acc1.svg" type="image/webp"><img src="./img/acc1.svg" alt=""></picture>
+                            <div class="title">
+                                <h4>Комплексное ведение учёта</h4>
+                                <p class="sm-text icon-right">Подробнее</p>
+                            </div>
+                        </div>
+                        <div class="icon-down-arrow accord-btn"></div>
+                    </div>
+                    <div class="accord-content mb1">
+                        <ul>
+                            <li>Ведение бухгалтерского учета</li>
+                            <li>Ведение налогового учета</li>
+                            <li>Кадровый учет</li>
+                            <li>Консультации по бухгалтерскому и налоговому учету</li>
+                            <li>Восстановление учета</li>
+                        </ul>
+                        <p class="fw-700 mb1">Для ИП от 15 000 тг <br> Для ТОО от 35 000 тг</p>
+                        <p>Стоимость зависит от количества операций в месяц и количества сотрудников в компании</p>
+                    </div>
+                </div>
+                <div class="accord wow animate__animated animate__fadeInLeft">
+                    <div class="accord-header white">
+                        <div class="header-title">
+                            <picture><source srcset="./img/acc2.svg" type="image/webp"><img src="./img/acc2.svg" alt=""></picture>
+                            <div class="title">
+                                <h4>БУХГАЛТЕРСКИЙ УЧЕТ</h4>
+                                <p class="sm-text icon-right">Подробнее</p>
+                            </div>
+                        </div>
+                        <div class="icon-down-arrow accord-btn"></div>
+                    </div>
+                    <div class="accord-content mb1">
+                        <ul>
+                            <li>Оформление хозяйственных операций</li>
+                           	<li>Подготовка и обработка входящих и исходящих первичных документов (счета, акты, счет-фактуры, накладные и прочие)</li>
+                        	<li>Внесение сведений в облачную 1С</li>
+                            <li>Оформление кассовых операций</li>
+                            <li>Оформление банковских операций</li>
+                            <li>Акты сверки с поставщиками и покупателями</li>
+                            <li>Оформление авансовых отчетов сотрудников</li>
+                            <li>Учет ОС и НМА</li>
+                            <li>Взаимодействие с представителями проверяющих органов</li>
+                            <li>Организация правильного бухгалтерского учета</li>
+                            <li>Бухгалтерское сопровождение</li>
+                        </ul>
+                        <p class="fw-700 mb1">Для ИП от 10 000 тг <br>Для ТОО от 20 000 тг</p>
+                    </div>
+                </div>
+                <div class="accord wow animate__animated animate__fadeInRight">
+                    <div class="accord-header white">
+                        <div class="header-title">
+                            <picture><source srcset="./img/acc3.svg" type="image/webp"><img src="./img/acc3.svg" alt=""></picture>
+                            <div class="title">
+                                <h4>НАЛОГОВЫЙ УЧЕТ</h4>
+                                <p class="sm-text icon-right">Подробнее</p>
+                            </div>
+                        </div>
+                        <div class="icon-down-arrow accord-btn"></div>
+                    </div>
+                    <div class="accord-content mb1">
+                        <ul>
+                            <li>Составление и сдача налоговой отчетности</li>
+                            <li>Сверка данных по лицевым счетам</li>
+                            <li>Взаимодействие с проверяющими органами</li>
+                            <li>Сопровождение налогового учета</li>
+                            <li>Ответы на извещения, уведомления</li>
+                        </ul>
+                        <p class="fw-700 mb1">Для ИП от 10 000 тг <br> Для ТОО от 20 000 тг</p>
+                    </div>
+                </div>
+                <div class="accord wow animate__animated animate__fadeInLeft">
+                    <div class="accord-header white">
+                        <div class="header-title">
+                            <picture><source srcset="./img/acc4.svg" type="image/webp"><img src="./img/acc4.svg" alt=""></picture>
+                            <div class="title">
+                                <h4>ВОССТАНОВЛЕНИЕ УЧЕТА</h4>
+                                <p class="sm-text icon-right">Подробнее</p>
+                            </div>
+                        </div>
+                        <div class="icon-down-arrow accord-btn"></div>
+                    </div>
+                    <div class="accord-content mb1">
+                        <ul>
+                            <li>Восстановление бухгалтерской и налоговой отчетности</li>
+                            <li>Приведение в порядок всех документов</li>
+                            <li>Восстановление отсутствующих документов и отчетов</li>
+                            <li>Сдача всех необходимых налоговых отчетов (либо исправленных налоговых отчетов)</li>
+                            <li>Восстановление данных в учетной базе</li>
+                            <li>Настройка учетной базы для ведения учета</li>
+                            <li>Консультации по ведению дальнейшего учета</li>
+                        </ul>
+                        <p class="fw-700 mb1">Для ИП от 25 000 тг за восстанавливаемый месяц <br>
+                            Для ТОО от 50 000 тг за восстанавливаемый месяц
+                            </p>
+                    </div>
+                </div>
+                <div class="accord wow animate__animated animate__fadeInRight">
+                    <div class="accord-header white">
+                        <div class="header-title">
+                            <picture><source srcset="./img/acc5.svg" type="image/webp"><img src="./img/acc5.svg" alt=""></picture>
+                            <div class="title">
+                                <h4>КОНСУЛЬТАЦИИ ПО БУХГАЛТЕРСКОМУ И НАЛОГОВОМУ УЧЕТУ</h4>
+                                <p class="sm-text icon-right">Подробнее</p>
+                            </div>
+                        </div>
+                        <div class="icon-down-arrow accord-btn"></div>
+                    </div>
+                    <div class="accord-content mb1">
+                        <ul>
+                            <li>Консультации по бухгалтерскому и налоговому учету позволять решить возникающие в процессе деятельности вопросы, споры, помогая уменьшить риски
+                                </li>
+                                <li>Консультации осуществляются как на постоянной основе, так и разово</li>
+                        </ul>
+                        <p class="fw-700 mb1">От 5 000 тг/час <br>
+                            Стоимость зависит от сложности вопроса</p>
+                    </div>
+                </div>
+                <div class="accord wow animate__animated animate__fadeInLeft">
+                    <div class="accord-header white">
+                        <div class="header-title">
+                            <picture><source srcset="./img/acc6.svg" type="image/webp"><img src="./img/acc6.svg" alt=""></picture>
+                            <div class="title">
+                                <h4>ПРОЧИЕ ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</h4>
+                                <p class="sm-text icon-right">Подробнее</p>
+                            </div>
+                        </div>
+                        <div class="icon-down-arrow accord-btn"></div>
+                    </div>
+                    <div class="accord-content mb1">
+                        <ul>
+                            <li>Статистические отчеты</li>
+                            <li>Экспортные операции</li>
+                            <li>Импортные операции</li>
+                            <li>Настройка электронного документооборота </li>                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts white" style="background-image: url('img/contact-bg.png');">
+        <div class="container">
+            <div class="wrapper">
+                <div class="contact-top tac">
+                    <h2 class="fw-600">Нужна бесплатная консультация?</h2>
+                    <p>Оставьте контактные данные и мы обязательно свяжемся с Вами</p>
+                </div>
+                <div class="contact-content wow animate__animated animate__fadeInBottomRight">
+                    <form id="order-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Имя*">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Телефон*">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="E-mail*">
+                        </div>
+                        <button class="btn second mt3">Оставить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="certificate pt" id="certificate">
+        <div class="container">
+            <div class="section-title">
+                <h3>Сертификаты</h3>
+            </div>
+            <div class="certificate-slider">
+                <picture><source srcset="./img/с1.webp" type="image/webp"><img src="./img/с1.jpg" alt=""></picture>
+                <picture><source srcset="./img/с2.webp" type="image/webp"><img src="./img/с2.jpg" alt=""></picture>
+                <picture><source srcset="./img/с3.webp" type="image/webp"><img src="./img/с3.jpg" alt=""></picture>
+                <picture><source srcset="./img/с4.webp" type="image/webp"><img src="./img/с4.jpg" alt=""></picture>
+                <picture><source srcset="./img/с5.webp" type="image/webp"><img src="./img/с5.jpg" alt=""></picture>
+                <picture><source srcset="./img/с6.webp" type="image/webp"><img src="./img/с6.jpg" alt=""></picture>
+                <picture><source srcset="./img/с7.webp" type="image/webp"><img src="./img/с7.jpg" alt=""></picture>
+                <picture><source srcset="./img/с8.webp" type="image/webp"><img src="./img/с8.jpg" alt=""></picture>
+                <picture><source srcset="./img/с9.webp" type="image/webp"><img src="./img/с9.jpg" alt=""></picture>
+                <picture><source srcset="./img/с10.webp" type="image/webp"><img src="./img/с10.jpg" alt=""></picture>
+                <picture><source srcset="./img/с11.webp" type="image/webp"><img src="./img/с11.jpg" alt=""></picture>
+                <picture><source srcset="./img/с12.webp" type="image/webp"><img src="./img/с12.jpg" alt=""></picture>
+                <picture><source srcset="./img/с13.webp" type="image/webp"><img src="./img/с13.jpg" alt=""></picture>
+                <picture><source srcset="./img/с14.webp" type="image/webp"><img src="./img/с14.jpg" alt=""></picture>
+                <picture><source srcset="./img/с15.webp" type="image/webp"><img src="./img/с15.jpg" alt=""></picture>
+                <picture><source srcset="./img/с16.webp" type="image/webp"><img src="./img/с16.jpg" alt=""></picture>
+                <picture><source srcset="./img/с17.webp" type="image/webp"><img src="./img/с17.jpg" alt=""></picture>
+                <picture><source srcset="./img/с18.webp" type="image/webp"><img src="./img/с18.jpg" alt=""></picture>
+                <picture><source srcset="./img/с19.webp" type="image/webp"><img src="./img/с19.jpg" alt=""></picture>
+                <picture><source srcset="./img/с20.webp" type="image/webp"><img src="./img/с20.jpg" alt=""></picture>
+            </div>
+        </div>
+    </section>
+
+    <section class="events p" id="events">
+        <div class="container">
+            <div class="section-title">
+                <h3>События</h3>
+            </div>
+            <div class="events-slider">
+                
+                <div class="event-slide">
+                    <a href="https://files.uchet.kz/web_2020/abc_30112021.mp4"><picture><source srcset="img/event1.webp" type="image/webp"><img src="img/event1.jpg" alt=""></picture></a>
+                    <div class="content">
+                        <div class="title">"ЭЛЕКТРОННЫЕ ЗАКУПКИ В РК- <br> НОГУ СО ВРЕМЕНЕМ"</div>
+                        <div class="text">30 ноября. Halyk Market, Финансы под контролем, ATP-Бухгалтерия.Налоги.Кадры</div>
+                    </div>
+                </div>
+                <div class="event-slide">
+                    <a href="https://files.uchet.kz/web_2021/abc_07122021.mp4"><picture><source srcset="img/event2.webp" type="image/webp"><img src="img/event2.jpg" alt=""></picture></a>
+                    <div class="content">
+                        <div class="title">"БИЗНЕС В ОБУЧЕНИИ: НАВЫКИ, <br> КОТОРЫЕ ПОМОГАЮТ ДОБИТЬСЯ УСПЕХА"</div>
+                        <div class="text">7 декабря. Владимир Кущенко, Финансы под контролем, ATP-Бухгалтерия.Налоги.Кадры</div>
+                    </div>
+                </div>
+                <div class="event-slide">
+                    <a href="https://files.uchet.kz/web_2021/abc_21122021.mp4"><picture><source srcset="img/event3.webp" type="image/webp"><img src="img/event3.jpg" alt=""></picture></a>
+                    <div class="content">
+                        <div class="title">"ЭФФЕКТИВНАЯ ИНТЕРНЕТ- <br>ТОРГОВЛЯ НА МАРКЕТПЛЕЙСЕ HALYK, ЧТО ДОЛЖНЫ ЗНАТЬ И УМЕТЬ ПРОДАВЦЫ"</div>
+                        <div class="text">21 декабря. ATP-Бухгалтерия.Налоги.Кадры</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    
+
+    <footer class="site-footer white" style="background-image: url('./img/footer-bg.jpg');" id="contact">
+    <div class="container">
+        <div class="wrapper">
+            <div class="footer-content">
+                <div class="footer-items">
+                    <div class="site-branding">
+                        <a href="/"><picture><source srcset="img/footer-logo.svg" type="image/webp"><img src="img/footer-logo.svg" alt=""></picture></a>
+                    </div>
+                    <div class="social mt2">
+                        <a href="https://www.instagram.com/atp_prof/" rel="nofollow" target="_blank" class="text df aic"> <i class="fab fa-instagram mr1"></i> instagram.com/atp_prof</a>
+                    </div>
+                </div>
+                <div class="footer-contacts">
+                    <div class="footer-grid">
+                        <div class="item">
+                            <div class="title">Телефон</div>
+                            <div class="df aic">
+                                <i class="fas fa-phone-alt"></i>
+                                <div class=" df fdc">
+                                    <a href="tel:+77013976472" class="text">+77013976472</a>
+                                    <a href="tel:+77477620208" class="text">+77477620208</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="title">Время работы</div>
+                            <div class="df aic">
+                                <i class="fas fa-clock"></i>
+                                <div class="df fdc">
+                                    <div class="text">ПН-ПТ: 9:00 - 18:00</div>
+                                    <div class="text">СБ, ВС: Выходной</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="title">Почта</div>
+                            <a href="mailto:@v_genia@mail.ru" class="text"><i class="fas fa-envelope"></i>v_genia@mail.ru</a>
+                        </div>
+                        <div class="item">
+                            <div class="title">Адрес</div>
+                            <div class="text"><i class="fas fa-map-marker-alt"></i>г. Караганда</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">© 2022 ATP. Все права защищены.</div>
+        </div>
+    </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/script.min.js"></script>
+    <script>
+          wow = new WOW(
+                {
+                boxClass:     'wow',      // default
+                animateClass: 'animated', // default
+                offset:       0,          // default
+                mobile:       true,       // default
+                live:         true        // default
+            }
+            )
+            wow.init();
+    </script>
+</body>
+</html>
